@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+Para automatização e controle da piscina por meio da comunicação bluetooth com o Arduino Uno
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
