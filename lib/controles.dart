@@ -154,13 +154,9 @@ class _AppPoolState extends State<AppPool> {
             : _messageBuffer + dataString.substring(0, index);
 
         _messageBuffer = dataString.substring(index);
-        var random = new Random();
-        int min = 10;
-        int max = 15;
-        int result = min + random.nextInt(max - min);
-
-        ph = "7," + result.toString();
+        ph = recebido.trim();
         print(ph);
+        
       });
     } else {
       _messageBuffer = (backspacesCounter > 0
